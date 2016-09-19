@@ -12,11 +12,12 @@ Now play songs form youtube from anywhere staying connected to the same Wlan as 
 
 Made for linux.
 
-To run the server, download the zip file, and extract it:
+To run the app, download the zip file, and extract it:
 
 1. Open terminal(linux). 
 2. Navigate to the main diectory in the zip.
 3. Run npm install
+4. Get an youtube api key for from google developers console and put it in *public/js/main.js* .
 4. Open directory in terminal and run *node sio-server* .
 5. Check the IP address your laptop ( *ifconfig* ) is connected to and enter that as URL with port 3000 in your mobile.
 6. Type the name of the song or video you want to play form youtube.   
